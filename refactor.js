@@ -52,7 +52,7 @@ setTimeout(sayHi, 2000);
 // Put your answer below -------------------------
 setTimeout(function() {
   alert('I did it!! I did it!!!');
-}, 1000);
+}, 2000);
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -106,7 +106,9 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-var reverseStr = function(str) { var arr; arr =str.split(""); arr = arr.reverse(); str = arr.join(""); return str; };
+var reverseStr = function(str) {
+  return str.split('').reverse().join('');
+ };
 
 
 // -----------------------------------------------
@@ -142,12 +144,17 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 var spanishColor = function(colorName) {
-  rojo: "#ff000";
-  blanco: "#ffffff";
-  azul: "#0000ff";
-  verde: "#00ff00";
-  negro: "#000000";
+  var colorList = {
+    rojo: "#ff000",
+    blanco: "#ffffff",
+    azul: "#0000ff",
+    verde: "#00ff00",
+    negro: "#000000"
+  };
+  return colorList[colorName.toLowerCase()]
 };
+
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -193,7 +200,9 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
-var callNineTimes = function(callBack) 
+var callNineTimes = function(callBack){
+
+}
 
 // -----------------------------------------------
 

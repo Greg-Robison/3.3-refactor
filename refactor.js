@@ -200,9 +200,14 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
-var callNineTimes = function(callBack){
-
+function callNtimes(n){
+  for (var i = 0; i < n; i++) {
+    callNtimes(n);
+  }
 }
+
+
+
 
 // -----------------------------------------------
 

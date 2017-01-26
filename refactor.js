@@ -202,8 +202,8 @@ var callTenTimes = function(callback) {
 // Put your answer below -------------------------
 function callNtimes(n){
   for (var i = 0; i < n; i++) {
-    callNtimes(n);
   }
+  callNtimes(3);
 }
 
 
@@ -235,6 +235,15 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+var increaseScore = function() {
+  score++;
+  var score = 0;
+};
+
+var decreaseScore = function() {
+  score--;
+  var score = 0;
+};
 
 
 // -----------------------------------------------

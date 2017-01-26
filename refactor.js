@@ -82,9 +82,9 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 // the answer is "C" because the answer is always "C"  just kidding... it is "C" because
-// when it reads the JS it starts at the top and works down 2 times, the first time it moves
-// the functions and the variable declarations  to the top however it does not move the
-// assignments so then it will display the "z" first and then the "y"
+// the setTimeout before the function instructs javascript to wait 1 millisecond before
+// running the function. now lets face it 1 millisecond aint to long but it is longer
+// than no milliseconds!!
 
 // -----------------------------------------------
 
@@ -268,7 +268,7 @@ var math = function(num1, num2){
   return num1 + num2;
 }
  console.log(math(525, 475));
- 
+
 
 // -----------------------------------------------
 

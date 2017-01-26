@@ -264,7 +264,11 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
-
+var math = function(num1, num2){
+  return num1 + num2;
+}
+ console.log(math(525, 475));
+ 
 
 // -----------------------------------------------
 
